@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="0dp">
+
+    <LinearLayout
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/pipeline_name_linear_layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp" >
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_full_name"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/search_filter_text_size" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/user_email"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/search_filter_text_size"
+                android:layout_toRightOf="@id/full_name" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

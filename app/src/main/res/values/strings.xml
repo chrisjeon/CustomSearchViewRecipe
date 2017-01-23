@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Custom SearchView Recipe</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu -->
+    <string name="search_title">Search Title</string>
+
+    <!-- MainActivity -->
+    <string name="main_activity_intro">This is the SearchView Recipe built by tying together various different libraries.</string>
+
+    <!-- SearchResultsActivity -->
+    <string name="search_results">Search Results</string>
+    <string name="user_full_name">User Full Name</string>
+    <string name="user_email">User Email</string>
+</resources>
